@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <title>Snapchat Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/assets/Vector.svg" alt="Snapchat logo" class="logo">
+        </div>
+        <h4 class="welcome">Welcome Back!</h4>
+        <div class="google-button">
+            <button class="google-login">Login via Google</button>
+        </div>
+        <h4 class="trouble">Trouble logging in?</h4>
+        <h3 class="or">OR</h3>
+
+        <div class="form-container">
+            <form action="" class="form">
+                <label for="email" class="label email-label hidden">USERNAME OR EMAIL</label><br>
+                <input type="text" id="email-input" class="input email-input" placeholder="USERNAME OR EMAIL" oninput="labelVisibility('email-input', 'email-label')"><br><br>
+                <label for="password" class="label password-label hidden">PASSWORD</label><br>
+                <input type="password" id="password-input" class="input password-input" placeholder="PASSWORD" oninput="labelVisibility('password-input', 'password-label'), changeColor()">
+                <h4 class="forgot-password">forgot password?</h4>
+                <div class="login-section">
+                    <button class="login-button" id="login-button">Log In</button>
+                </div>
+                <h4 class="signup"><span class="word-signup">Sign up</span> if you don’t have an account</h4>
+            </form>
+        </div>
+    </div>
+    <script src="/script.js" defer></script>
+</body>
+</html>
