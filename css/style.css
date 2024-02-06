@@ -10,7 +10,6 @@ body {
 }
 
 .container{
-    /* border: 2px solid red; */
     width: 375px;
     height: 812px;
 }
@@ -21,7 +20,6 @@ body {
     align-items: center;
     justify-content: flex-end;
     background: #FFFC00;
-    /* border: 2px solid red; */
     height: 88px;
 }
 
@@ -164,7 +162,7 @@ body {
 
 .signup{
     font-family: HelveticaNeue;
-    font-weight: 400;
+    font-weight: 450;
     line-height: 12px;
     letter-spacing: 0em;
     font-size: 10px;
@@ -175,4 +173,14 @@ body {
 
 .word-signup{
     color: #000;
+}
+
+.signup-a{
+    text-decoration: none;
+    color: #000;
+}
+
+.forgot-pass-a{
+    text-decoration: none;
+    color: #0D46D9;
 }
